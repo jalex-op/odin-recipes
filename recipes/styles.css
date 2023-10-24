@@ -43,3 +43,13 @@ div {
     background-color: rgb(231, 236, 238);
     font-family: Verdana, "DejaVu Sans", sans-serif;
   }
+
+  /* boxes */
+
+  .box-one {
+padding: 10px;
+border: 10px solid #0000ff;
+margin: 25px; 
+
+
+  }
