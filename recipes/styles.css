@@ -1,26 +1,45 @@
 body {
     color: black;
-    background-color: rgb(202, 230, 238);
+    background-color: rgb(231, 236, 238);
   }
 
 div {
-    color: black;
-    background-color: rgb(202, 230, 238);
+    color: rgb(236, 59, 74);
+    background-color:  rgb(231, 236, 238);
   }
   
-  p {
-    color: black;
-  }
-
-  h2 {
-    color: rgb(53, 3, 58);
-  }
-
+  /* Could do the following (p,h2,h1) individually, but since they 
+  have common declarations, can group them together  */
+  p,
+  h2,
   h1 {
-    color: rgb(53, 3, 58);
+    color: rgb(236, 59, 74);
   }
 
   img {
     height: auto;
     width: 300px;
+  }
+
+  button {
+    background-color: rgb(231, 236, 238);
+    color: rgb(236, 59, 74);
+    font-weight: bold;
+    font-size: 32px;
+  }
+
+  #two {
+    color: #0000ff;
+    font-size: 36px;
+  }
+
+  #one {
+    color: #ffae00;
+    font-size: 36px;
+  }
+
+
+  .class1 {
+    background-color: rgb(231, 236, 238);
+    font-family: Verdana, "DejaVu Sans", sans-serif;
   }
